@@ -1,6 +1,5 @@
 {
   "image": "fedora:latest",
-  "postCreateCommand": "dnf install -y gcc-c++ git cmake make boost-devel clang-tools-extra",
-  "features": {
-  }
+  "postCreateCommand": "dnf install -y gcc-c++ git cmake make boost-devel clang-tools-extra dotnet-runtime-8.0",
+  "features": {}
 }
