@@ -1,0 +1,6 @@
+{
+  "image": "fedora:latest",
+  "postCreateCommand": "dnf install -y gcc-c++ cmake make boost-devel clang-tools-extra",
+  "features": {
+  }
+}
